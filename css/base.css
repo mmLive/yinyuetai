@@ -1,0 +1,279 @@
+/*header*/
+
+.wrap-header {
+	width: 100%;
+	background: #000;
+	overflow: hidden;
+	height: 50px;
+}
+
+#header {
+	width: 1509px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#header h1 {
+	float: left;
+}
+
+#header ul {
+	font-size: 14px;
+}
+
+#header ul:first-of-type {
+	float: left;
+}
+
+#header ul:last-of-type {
+	float: right;
+}
+
+#header ul:last-of-type li:last-of-type a {
+	border-left: 1px solid #bdbdbd;
+	height: 20px;
+	margin: 15px 0px;
+	line-height: 20px;
+	padding: 0 25px;
+}
+
+#header ul li {
+	float: left;
+	margin: 0 7px;
+	height: 50px;
+}
+
+#header ul:first-of-type li:nth-of-type(5) {
+	background: url(../img/index/market1.gif) no-repeat center;
+}
+
+#header ul:first-of-type li:nth-of-type(5):hover {
+	background: url(../img/index/market.gif) no-repeat center;
+}
+
+#header ul li b {
+	display: none;
+	width: 110px;
+	height: 120px;
+	position: absolute;
+	background: #222;
+	font-weight: normal;
+	z-index: 3;
+}
+
+#header ul li b p {
+	width: 110px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+}
+
+#header ul li:hover b {
+	display: block;
+}
+
+#header ul li b p:hover {
+	background: #666;
+}
+
+#header ul li a {
+	color: #bdbdbd;
+	display: block;
+	padding: 0 10px;
+	height: 50px;
+	line-height: 50px;
+}
+
+#header ul li a span {
+	display: inline-block;
+	width: 9px;
+	height: 5px;
+	background: url(../img/index/topbar_sprite4.png) no-repeat;
+	background-position: -262px -18px;
+}
+
+#header ul li a i {
+	display: inline-block;
+	width: 24px;
+	height: 18px;
+	background: url(../img/index/new_topbar.png) no-repeat;
+	position: relative;
+	top: 5px;
+}
+
+#header ul li:nth-of-type(2) a i {
+	background-position: -23px 0;
+}
+
+#header ul li:nth-of-type(3) a i {
+	background-position: -118px 0px;
+}
+
+#header ul li:nth-of-type(4) a i {
+	background-position: -71px 0px;
+}
+
+#header ul li a:hover {
+	color: #52e2c0;
+}
+
+#header ul:first-of-type li:hover {
+	background: #222;
+}
+
+#header ul li a:hover span {
+	background-position: -272px -18px;
+}
+
+#header ul li:nth-of-type(2) a:hover i {
+	background-position: 1px 0;
+}
+
+#header ul li:nth-of-type(3) a:hover i {
+	background-position: -94px 0;
+}
+
+#header ul li:nth-of-type(4) a:hover i {
+	background-position: -48px 0;
+}
+
+#header>form {
+	float: right;
+	margin: 10px 30px 0 0;
+}
+
+#header>form input {
+	height: 30px;
+	width: 190px;
+	background: #dcdbdb;
+	border: none;
+	border-radius: 3px 0 0 3px;
+	float: left;
+}
+
+#header>form button {
+	height: 30px;
+	width: 25px;
+	background: #dcdbdb url(../img/index/search.png) no-repeat left center;
+	border: none;
+	border-radius: 0 3px 3px 0;
+	float: left;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+/*footer*/
+
+.wrap-footer {
+	width: 100%;
+	background: #fff;
+	margin-top: 4px;
+}
+
+#footer {
+	height: 150px;
+	overflow: hidden;
+}
+
+#footer ul {
+	margin: 0 auto;
+	height: 30px;
+	font-size: 12px;
+}
+
+#footer ul li {
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	padding: 0 12px;
+}
+
+#footer ul:first-of-type {
+	width: 450px;
+	margin-top: 40px;
+}
+
+#footer ul:first-of-type li {
+	border-left: 1px dashed #bdbdbd;
+}
+
+.wrap-footer #footer ul li:first-of-type {
+	border: none;
+}
+
+#footer ul:nth-of-type(2) {
+	width: 950px;
+}
+
+#footer ul:nth-of-type(2) li {
+	border-left: 1px solid #bdbdbd;
+}
+
+#footer ul:nth-of-type(3) {
+	width: 1100px;
+}
+
+#footer ul:nth-of-type(3) li {
+	border-left: 1px solid #bdbdbd;
+}
+
+#footer ul li a {
+	color: #999;
+}
+
+#footer ul:first-of-type li a {
+	color: #666;
+}
+
+#footer ul li {
+	color: #999;
+}
+
+.wrap-footer #footer ul li a:hover {
+	color: #52e2c0;
+}
+
+.wrap-footer #footer ul li span {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	float: left;
+	position: relative;
+	top: -3px;
+	left: -3px;
+}
+
+.wrap-footer #footer ul li img {
+	width: 100%;
+	height: 100%;
+}
+
+.wrap-footer #footer ul li i {
+	display: inline-block;
+	width: 40px;
+	height: 48px;
+	float: right;
+	position: relative;
+	left: 3px;
+	top: -30px;
+}
+
+
+/*return*/
+
+.return {
+	position: fixed;
+	right: 0;
+	bottom: 50px;
+	height: 65px;
+	width: 50px;
+	z-index: 5;
+}
+
+.return_top_static {
+	background: url(../img/index/returntop.png) no-repeat;
+	height: 65px;
+	width: 50px;
+	display: block;
+}
